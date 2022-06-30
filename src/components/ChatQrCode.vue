@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>QR Code Page</h1>
+    <h1>QR Code Component</h1>
     <VueQrcode v-if="qrcode" :value="qrcode"/>
   </div>
 </template>
@@ -12,7 +12,6 @@ export default {
   name: 'ChatQrCode',
 
   props: {
-    input: null,
     qrcode: null
   },
 
