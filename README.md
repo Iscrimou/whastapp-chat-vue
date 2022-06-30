@@ -1,5 +1,5 @@
 # whatsapp-front
-
+This is just a frontend that consumes my private whatsapp API, and works like a whatsapp web clone.
 ## Project setup
 ```
 npm install
